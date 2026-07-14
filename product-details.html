@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details || MIRPUR</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Misiom is a modern and creative HTML template designed for digital agencies, startups, and marketing firms. It features clean design, responsive layout, fast performance, and easy customization to showcase your services, portfolio, and brand professionally." />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/aos/css/aos.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/misiom-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/misiom.css" />
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header sticky-header sticky-header--normal">
+            <div class="container main-header__container">
+                <div class="main-header__inner">
+                    <div class="main-header__left">
+                        <div class="main-header__logo logo-retina">
+                            <a href="index.html">
+                                <img src="assets/images/logo-light.png" alt="Misiom HTML" width="160">
+                            </a>
+                        </div><!-- /.main-header__logo -->
+                        <nav class="main-header__nav main-menu">
+                            <ul class="main-menu__list">
+                                <li class="dropdown">
+                                    <a href="index.html">Home</a>
+                                    <ul>
+                                        <li><a href="index.html">Home Page 01</a></li>
+                                        <li><a href="index-2.html">Home Page 02</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Pages</a>
+                                    <ul>
+                                        <li class="dropdown">
+                                            <a href="team.html">Our Team</a>
+                                            <ul>
+                                                <li><a href="team.html">Team Page</a></li>
+                                                <li><a href="team-details.html">Team Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="portfolio.html">Portfolio page</a>
+                                            <ul>
+                                                <li><a href="portfolio.html">Portfolio Page 01</a></li>
+                                                <li><a href="portfolio-2.html">Portfolio Page 02</a></li>
+                                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="packages.html">Pricing Tables</a></li>
+                                        <li><a href="faq.html">FAQS</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="404.html">404 Error</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Services</a>
+                                    <ul>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="service-d-web-development.html">Web Development</a></li>
+                                        <li><a href="service-d-visual-design-solutions.html">Visual Design Solutions</a></li>
+                                        <li><a href="service-d-brand-identity-design.html">Brand Identity Design</a></li>
+                                        <li><a href="service-d-digital-brand-strategy.html">Digital Brand Strategy</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#">Shop</a>
+                                    <ul>
+                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="product-details.html">Product Details</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Blog</a>
+                                    <ul>
+                                        <li><a href="blog.html">Blog Page</a></li>
+                                        <li><a href="blog-classic.html">Blog Classic</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav><!-- /.main-header__nav -->
+                    </div><!-- /.main-header__left -->
+                    <div class="main-header__right">
+                        <form role="search" method="get" class="main-header__search" action="#">
+                            <button type="submit" aria-label="search submit" class="main-header__search__btn"><i class="icon-search"></i></button>
+                            <input type="text" id="search" placeholder="Search..." class="main-header__search__field" />
+                        </form>
+                        <div class="mobile-nav__btn mobile-nav__toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- /.mobile-nav__toggler -->
+                        <div class="sidebar-btn__toggler">
+                            <span class="sidebar-btn__toggler__line"></span>
+                            <span class="sidebar-btn__toggler__line"></span>
+                            <span class="sidebar-btn__toggler__line"></span>
+                            <span class="sidebar-btn__toggler__line"></span>
+                        </div><!-- /.sidebar-btn__toggler -->
+                    </div><!-- /.main-header__right -->
+                </div><!-- /.main-header__inner -->
+            </div><!-- /.container -->
+        </header><!-- /.main-header -->
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <section class="page-header image-parallax">
+                    <div class="page-header__bg image-parallax-lr" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);"></div>
+                    <div class="container">
+                        <div class="page-header__content hidden">
+                            <h1 class="page-header__title" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="100">Boss Chair</h1>
+                            <ul class="misiom-breadcrumb list-unstyled" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="100">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="products.html"><span>Our shop</span></a></li>
+                                <li><span>Boss Chair</span></li>
+                            </ul><!-- /.misiom-breadcrumb -->
+                        </div><!-- /.page-header__content -->
+                    </div><!-- /.container -->
+                    <div class="page-header__shape" style="background-image: url(assets/images/shapes/page-header-shape.png);"></div>
+                </section><!-- /.page-header -->
+
+                <section class="product-details section-space">
+                    <div class="container">
+                        <div class="row gutter-y-40">
+                            <div class="col-lg-6" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                <div class="product-details__image">
+                                    <img src="assets/images/products/product-d-1-1.png" alt="product details">
+                                </div><!-- /.product-details__image -->
+                            </div><!-- /.col-lg-6 -->
+                            <div class="col-lg-6" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                <div class="product-details__content">
+                                    <div class="product-details__top">
+                                        <h2 class="product-details__name">Boss Chair</h2>
+                                        <h3 class="product-details__price">$100.50</h3>
+                                    </div>
+                                    <div class="product-details__review">
+                                        <div class="misiom-ratings">
+                                            <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                            <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                            <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                            <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                            <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                        </div><!-- /.misiom-ratings -->
+                                        <a href="product-details.html">2 customer review</a>
+                                    </div><!-- /.review-ratings -->
+                                    <div class="product-details__excerpt">
+                                        <p class="product-details__excerpt__text">Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec ers id magna hendrerit sagittis. nullam sed mi non odio feugiat volutpat sit amet nec elit. maecenas id hendrerit ipsum.</p>
+                                        <ul class="product-details__excerpt__list list-unstyled">
+                                            <li>REF. 305/639</li>
+                                            <li>In Stock</li>
+                                        </ul><!-- /.product-details__excerpt__list -->
+                                    </div><!-- /.excerp-text -->
+                                    <div class="product-details__quantity">
+                                        <h3 class="product-details__quantity__title">Quantity</h3>
+                                        <div class="quantity-box">
+                                            <button type="button" class="quantity-box__btn sub"><i class="fa fa-minus"></i></button>
+                                            <input type="number" id="quantity" name="quantity" value="0" class="quantity-box__input">
+                                            <button type="button" class="quantity-box__btn add"><i class="fa fa-plus"></i></button>
+                                        </div>
+                                    </div><!-- /.quantity -->
+                                    <div class="product-details__buttons">
+                                        <a href="cart.html" class="misiom-btn misiom-btn--black"><span>Add to Wishlist</span></a>
+                                        <a href="cart.html" class="misiom-btn"><span>Add to Cart</span></a>
+                                    </div><!-- /.qty-btn -->
+                                    <div class="product-details__social">
+                                        <h3 class="product-details__social__title">share with friends</h3>
+                                        <div class="social-links">
+                                            <a href="https://facebook.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                                    <span class="sr-only">Facebook</span>
+                                                </span>
+                                            </a>
+                                            <a href="https://x.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                                    <span class="sr-only">X</span>
+                                                </span>
+                                            </a>
+                                            <a href="https://linkedin.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                                    <span class="sr-only">Linkedin</span>
+                                                </span>
+                                            </a>
+                                            <a href="https://instagram.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                                    <span class="sr-only">Instagram</span>
+                                                </span>
+                                            </a>
+                                        </div><!-- /.social-links -->
+                                    </div><!-- /.product-details__social -->
+                                </div>
+                            </div><!-- /.col-lg-6 -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->
+                    <div class="product-details__description-wrapper">
+                        <div class="container">
+                            <div class="product-details__description">
+                                <div class="product-details__description__box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                    <h3 class="product-details__description__title">Description</h3>
+                                    <p class="product-details__description__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                </div><!-- /.product-details__description__box -->
+                                <ul class="product-details__list list-unstyled" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                    <li>
+                                        <span class="product-details__list__icon">
+                                            <i class="fas fa-long-arrow-alt-right"></i>
+                                        </span>
+                                        Nibh Nam nec eros id magna hendrerit
+                                    </li>
+                                    <li>
+                                        <span class="product-details__list__icon">
+                                            <i class="fas fa-long-arrow-alt-right"></i>
+                                        </span>
+                                        Vitae nibh Nam nec eros id magna hendrerit
+                                    </li>
+                                    <li>
+                                        <span class="product-details__list__icon">
+                                            <i class="fas fa-long-arrow-alt-right"></i>
+                                        </span>
+                                        Nam nec eros id magna hendrerits
+                                    </li>
+                                </ul><!-- /.product-details__list list-unstyled -->
+                                <div class="product-details__description__box" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                    <p class="product-details__description__text">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                                </div><!-- /.product-details__description__box -->
+                            </div><!-- /.product-details__description -->
+                        </div><!-- /.container -->
+                    </div><!-- /.product-details__description__wrapper -->
+                    <div class="container">
+                        <div class="product-details__comments comments-one">
+                            <h3 class="comments-one__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">2 Reviews</h3>
+                            <ul class="list-unstyled comments-one__list">
+                                <li class="comments-one__card" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                    <div class="comments-one__image">
+                                        <img src="assets/images/products/product-comment-1.jpg" alt="David Shon">
+                                    </div><!-- /.comments-one__image -->
+                                    <div class="comments-one__content">
+                                        <div class="comments-one__top">
+                                            <div class="comments-one__left">
+                                                <h3 class="comments-one__name">David Shon</h3>
+                                                <p class="comments-one__date">20 Jan, 2026 . 4:00 PM</p>
+                                            </div><!-- /.comments-one__left -->
+                                            <div class="comments-one__right">
+                                                <div class="misiom-ratings">
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                </div><!-- /.misiom-ratings -->
+                                            </div><!-- /.comments-one__right -->
+                                        </div><!-- /.comments-one__top -->
+                                        <p class="comments-one__text">Horsehead offer it's about managing expectations, yet guerrilla marketing. You better eat a reality sandwich before you walk back in that boardroom if you could do that, that would be great optimize the fireball, and optics, drink the Kool-aid. This is a no-brainer. Circle back punter, yet data-point, or peel the onion the last person we talked to said this would be ready, and mumbo jumbo. Blue sky close the loop, and reach out, yet strategic fit, beef up i dont care.</p>
+                                    </div><!-- /.comments-one__content -->
+                                </li><!-- /.comments-one__card -->
+                                <li class="comments-one__card" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                    <div class="comments-one__image">
+                                        <img src="assets/images/products/product-comment-2.jpg" alt="Sarah Albert">
+                                    </div><!-- /.comments-one__image -->
+                                    <div class="comments-one__content">
+                                        <div class="comments-one__top">
+                                            <div class="comments-one__left">
+                                                <h3 class="comments-one__name">Sarah Albert</h3>
+                                                <p class="comments-one__date">10 Mar, 2026 . 9:00 AM</p>
+                                            </div><!-- /.comments-one__left -->
+                                            <div class="comments-one__right">
+                                                <div class="misiom-ratings">
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                    <span class="misiom-ratings__icon"><i class="fas fa-star"></i></span>
+                                                </div><!-- /.misiom-ratings -->
+                                            </div><!-- /.comments-one__right -->
+                                        </div><!-- /.comments-one__top -->
+                                        <p class="comments-one__text">We need to harvest synergy effects finance, or let's pressure test this incentivization, i dont care if you got some copy, why you dont use officeipsumcom or something like that ?, yet do i have consent to record this meeting, or screw the pooch. Future-proof usabiltiy, for sorry i was triple muted. That is a good problem to have no need to talk to users, just base it on the space calculator it is all exactly as i said, but i don't like it up the flagpole bazooka.</p>
+                                    </div><!-- /.comments-one__content -->
+                                </li><!-- /.comments-one__card -->
+                            </ul><!-- /.list-unstyled comments-one__list -->
+                        </div><!-- /.product-details__comments comments-one -->
+                    </div><!-- /.container -->
+                    <div class="container">
+                        <div class="product-details__form comments-form">
+                            <div class="product-details__form__top" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                <h2 class="product-details__form__title comments-form__title">Add a Review</h2>
+                                <div class="product-details__form__ratings">
+                                    <h3 class="product-details__form__ratings__text">Rate this product</h3>
+                                    <div class="product-details__ratings">
+                                        <span class="product-details__ratings__icon"><i class="far fa-star"></i></span>
+                                        <span class="product-details__ratings__icon"><i class="far fa-star"></i></span>
+                                        <span class="product-details__ratings__icon"><i class="far fa-star"></i></span>
+                                        <span class="product-details__ratings__icon"><i class="far fa-star"></i></span>
+                                        <span class="product-details__ratings__icon"><i class="far fa-star"></i></span>
+                                    </div><!-- /.product-details__ratings -->
+                                </div><!-- /.product-details__form__ratings -->
+                            </div><!-- /.product-details__form__top -->
+                            <form action="https://bracketweb.com/misiom-html/assets/inc/sendemail.php" class="comments-form__form contact-form-validated form-one">
+                                <div class="form-one__group">
+                                    <div class="form-one__control" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                        <input type="text" name="name" placeholder="Your Name">
+                                    </div><!-- /.form-one__control -->
+                                    <div class="form-one__control" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                        <input type="email" name="email" placeholder="Email Address">
+                                    </div><!-- /.form-one__control -->
+                                    <div class="form-one__control form-one__control--full" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                        <textarea name="message" placeholder="Write a Message"></textarea>
+                                    </div><!-- /.form-one__control -->
+                                    <div class="form-one__control form-one__control--full" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300">
+                                        <button type="submit" class="misiom-btn"><span>Submit Review</span></button>
+                                    </div><!-- /.form-one__control -->
+                                </div><!-- /.form-one__group -->
+                            </form><!-- /.comments-form__form -->
+                            <div class="result"></div><!-- /.result -->
+                        </div><!-- /.comments-form -->
+                    </div><!-- /.container -->
+                </section><!-- /.product-details -->
+
+                <footer class="main-footer">
+                    <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg-shape-1-1.png);"></div>
+                    <div class="main-footer__slide-text">
+                        <h2 class="main-footer__slide-text__scroll">
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                            <span class="main-footer__slide-text__title">* Contact Us</span>
+                        </h2><!-- /.main-footer__slide-text__scroll -->
+                    </div><!-- /.main-footer__slide-text -->
+                    <div class="container">
+                        <div class="main-footer__widget">
+                            <div class="row gutter-y-40">
+                                <div class="col-xl-5 col-lg-4 col-md-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="100">
+                                    <div class="footer-widget footer-widget--about">
+                                        <div class="footer-widget__logo logo-retina">
+                                            <a href="index.html">
+                                                <img src="assets/images/logo-light.png" width="160" alt="Misiom HTML Template">
+                                            </a>
+                                        </div><!-- /.footer-widget__logo -->
+                                        <p class="footer-widget__text">
+                                            Welcome to Creative Agency & Portfolio Theme. Lorem ipsum simply free.
+                                        </p>
+                                        <div class="social-links">
+                                            <a href="https://facebook.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                                                    <span class="sr-only">Facebook</span>
+                                                </span>
+                                            </a>
+                                            <a href="https://x.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                                    <span class="sr-only">X</span>
+                                                </span>
+                                            </a>
+                                            <a href="https://linkedin.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                                    <span class="sr-only">Linkedin</span>
+                                                </span>
+                                            </a>
+                                            <a href="https://instagram.com/">
+                                                <span class="social-links__icon">
+                                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                                    <span class="sr-only">Instagram</span>
+                                                </span>
+                                            </a>
+                                        </div><!-- /.social-links -->
+                                    </div><!-- /.footer-widget -->
+                                </div><!-- /.col-xl-5 -->
+                                <div class="col-xl-7 col-lg-8 col-md-7">
+                                    <div class="main-footer__right">
+                                        <div class="row gutter-y-40">
+                                            <div class="col-xl-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="200">
+                                                <div class="footer-widget footer-widget--newsletter">
+                                                    <form action="#" data-url="MAILCHIMP_FORM_URL" class="footer-widget__newsletter mc-form">
+                                                        <input type="email" name="EMAIL" placeholder="Email address" class="footer-widget__newsletter__input">
+                                                        <button type="submit" class="footer-widget__newsletter__btn misiom-btn misiom-btn--white"><span>Subscribe</span></button>
+                                                    </form><!-- /.footer-widget__newsletter -->
+                                                </div><!-- /.footer-widget -->
+                                            </div><!-- /.col-xl-12 -->
+                                            <div class="col-xl-7 col-lg-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="300">
+                                                <div class="footer-widget footer-widget--links">
+                                                    <h2 class="footer-widget__title">Explore</h2><!-- /.footer-widget__title -->
+                                                    <div class="footer-widget__links-box">
+                                                        <ul class="list-unstyled footer-widget__links">
+                                                            <li><a href="services.html">Services</a></li>
+                                                            <li><a href="team.html">Meet Team</a></li>
+                                                            <li><a href="portfolio.html">Portfolio</a></li>
+                                                            <li><a href="about.html">What We Do</a></li>
+                                                            <li><a href="blog.html">Latest News</a></li>
+                                                        </ul><!-- /.footer-widget__links -->
+                                                        <ul class="list-unstyled footer-widget__links">
+                                                            <li><a href="faq.html">Faq</a></li>
+                                                            <li><a href="packages.html">Pricing Plans</a></li>
+                                                            <li><a href="contact.html">Support</a></li>
+                                                            <li><a href="contact.html">Contact</a></li>
+                                                        </ul><!-- /.footer-widget__links -->
+                                                    </div><!-- /.footer-widget__links-box -->
+                                                </div><!-- /.footer-widget -->
+                                            </div><!-- /.col-xl-8 -->
+                                            <div class="col-xl-5 col-lg-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="400">
+                                                <div class="footer-widget footer-widget--Contact">
+                                                    <h2 class="footer-widget__title">Contact</h2><!-- /.footer-widget__title -->
+                                                    <address class="footer-widget__address">36 broklyn golden street. New York. USA</address>
+                                                    <ul class="footer-widget__info list-unstyled">
+                                                        <li>
+                                                            <span class="footer-widget__info__icon"><i class="fas fa-phone-square"></i></span>
+                                                            <div>
+                                                                <a href="tel:+92380080601">+92 3800 80601</a>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <span class="footer-widget__info__icon"><i class="fas fa-envelope"></i></span>
+                                                            <div>
+                                                                <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                                                            </div>
+                                                        </li>
+                                                    </ul><!-- /.footer-widget__info -->
+                                                </div><!-- /.footer-widget -->
+                                            </div><!-- /.col-xl-4 -->
+                                        </div><!-- /.row -->
+                                    </div><!-- /.main-footer__right -->
+                                </div><!-- /.col-xl-7 -->
+                            </div><!-- /.row -->
+                        </div><!-- /.main-footer__widget -->
+                    </div><!-- /.container -->
+                    <div class="main-footer__bottom">
+                        <div class="container">
+                            <div class="main-footer__bottom__inner" data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-duration="1300" data-aos-delay="100">
+                                <p class="main-footer__copyright">
+                                    &copy; Copyright <span class="dynamic-year"></span> by Misiom HTML Template.
+                                </p>
+                            </div><!-- /.main-footer__inner -->
+                        </div><!-- /.container -->
+                    </div><!-- /.main-footer__bottom -->
+                </footer><!-- /.main-footer -->
+
+            </div><!-- /.page-wrapper -->
+        </div><!-- /#smooth-content -->
+    </div><!-- /#smooth-wrapper -->
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div><!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="icon-close"></i></span>
+            <div class="logo-box logo-retina">
+                <a href="index.html" aria-label="logo image">
+                    <img src="assets/images/logo-light.png" width="160" alt="Misiom HTML" />
+                </a>
+            </div><!-- /.logo-box -->
+            <div class="mobile-nav__container"></div><!-- /.mobile-nav__container -->
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <span class="mobile-nav__contact__icon"><i class="fa fa-envelope"></i></span>
+                    <a href="mailto:misiom@envato.com">misiom@envato.com</a>
+                </li>
+                <li>
+                    <span class="mobile-nav__contact__icon"><i class="fa fa-phone-alt"></i></span>
+                    <a href="tel:+9156980036420">+91 5698 0036 420</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="social-links">
+                <a href="https://facebook.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </span>
+                </a>
+                <a href="https://x.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">X</span>
+                    </span>
+                </a>
+                <a href="https://linkedin.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">Linkedin</span>
+                    </span>
+                </a>
+                <a href="https://instagram.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </span>
+                </a>
+            </div><!-- /.social-links -->
+        </div><!-- /.mobile-nav__content -->
+    </div><!-- /.mobile-nav__wrapper -->
+    <aside class="sidebar-two">
+        <div class="sidebar-two__overlay sidebar-btn__toggler"></div><!-- /.siderbar-ovarlay -->
+        <div class="sidebar-two__content">
+            <span class="sidebar-two__close sidebar-btn__toggler"><i class="icon-close"></i></span>
+            <div class="sidebar-two__logo sidebar-two__item logo-retina">
+                <a href="index.html" aria-label="logo image">
+                    <img src="assets/images/logo-light.png" alt="Misiom HTML" width="160">
+                </a>
+            </div><!-- /.sidebar-two__logo -->
+            <div class="sidebar-two__about sidebar-two__item">
+                <p class="sidebar-two__about__text">
+                    Misiom is a template designed for agencies firms. It features design layout performance customization to showcase your services portfolio brand.
+                </p>
+            </div><!-- /.sidebar-two__about -->
+            <div class="sidebar-two__newsletter sidebar-two__item">
+                <label class="sidebar-two__title" for="sidebar-two-email">Newsletter</label>
+                <form action="#" class="sidebar-two__newsletter__inner mc-form" data-url="MAILCHIMP_FORM_URL">
+                    <input type="email" name="EMAIL" id="sidebar-two-email" class="sidebar-two__newsletter__input" placeholder="Email Address">
+                    <button type="submit" class="sidebar-two__newsletter__btn"><span class="icon-email" aria-hidden="true"></span></button>
+                </form>
+                <div class="mc-form__response"></div><!-- /.mc-form__response -->
+            </div><!-- /.sidebar-two__form -->
+            <div class="sidebar-two__info sidebar-two__item">
+                <h3 class="sidebar-two__title">Contact Us</h3>
+                <ul class="sidebar-two__info__list">
+                    <li>
+                        <span class="sidebar-two__info__title">Email</span>
+                        <a href="mailto:misiom@envato.com">misiom@envato.com</a>
+                    </li>
+                    <li>
+                        <span class="sidebar-two__info__title">Phone</span>
+                        <a href="tel:+9156980036420">+9156980036420</a>
+                    </li>
+                    <li>
+                        <span class="sidebar-two__info__title">Location</span>
+                        <address>85 Ketch Harbour Road Bensal PA 19020</address>
+                    </li>
+                </ul><!-- /.sidebar-two__info__list -->
+            </div><!-- /.sidebar-two__info -->
+            <div class="sidebar-two__social social-links">
+                <a href="https://facebook.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </span>
+                </a>
+                <a href="https://x.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">X</span>
+                    </span>
+                </a>
+                <a href="https://linkedin.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="sr-only">Linkedin</span>
+                    </span>
+                </a>
+                <a href="https://instagram.com/">
+                    <span class="social-links__icon">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </span>
+                </a>
+            </div><!-- /.sidebar-two__social -->
+        </div><!-- /.sidebar-two__content -->
+    </aside><!-- /.sidebar-two -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <span class="scroll-to-top__text">back top</span>
+        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+    </a>
+
+
+    <script src="assets/vendors/jquery/jquery-3.7.1.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendors/aos/js/aos.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+
+    <!-- gsap js -->
+    <script src="assets/vendors/gsap/gsap.js"></script>
+    <script src="assets/vendors/gsap/scrolltrigger.min.js"></script>
+    <script src="assets/vendors/gsap/splittext.min.js"></script>
+    <script src="assets/vendors/gsap/ScrollSmoother.min.js"></script>
+    <script src="assets/vendors/gsap/ScrollToPlugin.min.js"></script>
+    <script src="assets/vendors/gsap/CustomEase.min.js"></script>
+    <script src="assets/vendors/gsap/misiom-gsap.js"></script>
+
+    <!-- three js -->
+    <script src="assets/vendors/three-js/three.min.js"></script>
+    <script src="assets/vendors/hover-effect-js/hover-effect.umd.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/misiom.js"></script>
+</body>
+
+
+</html>
